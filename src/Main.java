@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String []args){
-        System.out.println(FrogSimulation.hopDistance);
+        FrogSimulation frogsim = new FrogSimulation();
+        System.out.println(frogsim.hopDistance());
     }
 }
